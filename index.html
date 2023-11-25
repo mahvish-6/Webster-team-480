@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoEXgYXmqlyO0mfomuCN9l5POGMbl0vbjmZQ&usqp=CAU')
+        }
+
+        header {
+            height: 400px;
+            width: 100%;
+            border: 5px solid black;
+        }
+
+        #temp {
+            text-align: center;
+            font-size: 40px;
+            height: 90px;
+            width: 73%;
+            margin-left: 150pX;
+            margin-top: 50px;
+            border: 5px solid rgb(0, 0, 0);
+            animation-name: head;
+            animation-duration: 4s;
+            animation-iteration-count: 200000;
+            padding-top: 0px;
+            padding-left: 20px;
+            padding-bottom: 0px;
+            font-family:'Times New Roman', Times, serif;
+            line-height: 4px;
+            border-radius: 50%;
+
+
+        }
+
+        @keyframes head {
+            0% {
+                background-color: hsl(165, 51%, 66%);
+            }
+
+            20% {
+                background-color: rgb(130, 176, 190);
+            }
+
+            40% {
+                background-color: rgb(155, 139, 188);
+            }
+
+            60% {
+                background-color: rgb(148, 24, 117);
+            }
+
+            80% {
+                background-color: #c98c1b;
+            }
+
+            100% {
+                background-color: rgb(205, 226, 43);
+            }
+        }
+
+        #a1 {
+            text-align: left;
+            height: 65px;
+            width: 110%;
+            margin-top: 0%;
+            color: white;
+            display: inline-block;
+            margin-left: 0px;
+            border-radius: 0%;
+            position: fixed;
+        }
+
+        #u1 {
+            height: 60px;
+            width: 60px;
+            border: 3px solid white;
+            display: inline-block;
+            margin-left: 50px;
+            border-radius: 5%;
+        }
+
+        #u2 {
+            height: 60px;
+            width: 60px;
+            border: 3px solid white;
+            display: inline-block;
+            margin-left: 110px;
+            border-radius: 5%;
+
+        }
+
+        #u3 {
+            height: 60px;
+            width: 60px;
+            border: 3px solid white;
+            display: inline-block;
+            margin-left: 110px;
+            border-radius: 5%;
+
+
+        }
+
+        #u4 {
+            height: 60px;
+            width: 60px;
+            border: 3px solid white;
+            display: inline-block;
+            margin-left: 110px;
+            border-radius: 5%;
+
+        }
+
+        #u5 {
+            height: 60px;
+            width: 60px;
+            border: 3px solid white;
+            display: inline-block;
+            border-radius: 5%;
+            margin-left: 110px;
+
+        }
+
+        #u6 {
+            height: 60px;
+            width: 60px;
+            border: 3px solid white;
+            display: inline-block;
+            border-radius: 5%;
+            margin-left: 110px;
+
+
+        }
+
+        #a2 {
+            height: 150px;
+            width: 60px;
+            display: inline-block;
+            padding-bottom: 10px;
+            margin-top: 100px;
+
+        }
+
+        #bom1 {
+            height: 50px;
+            width: 50px;
+            border: 5px solid rgb(245, 241, 241);
+            display: flex;
+            position: center;
+            margin-bottom: 10px;
+            transition: width 2s, height 2s, transform 2s;
+            background-image: url('zamtech.png');
+            background-size: cover;
+            border-radius: 5%;
+        }
+
+        #bom1:hover {
+            width: 200px;
+            height: 200px;
+            transform: rotate(360deg);
+        }
+
+        #bom2 {
+            height: 50px;
+            width: 50px;
+            border: 5px solid rgb(245, 241, 241);
+            display: flex;
+            position: center;
+            margin-bottom: 10px;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuyqmCyebpNQj9S0wvAx-TOL5iFIvE6SgK3Kci9wnYFP_ECKUpy4H07p6RqrfYz6tzj0E&usqp=CAU');
+            background-size: cover;
+            font-size: 2px;
+            transition: width 3s ;
+
+        }
+
+        #bom2:hover {
+            width: 300px;
+        }
+        #bom3{
+            height: 50px;
+            width: 50px;
+            border: 5px solid rgb(245, 241, 241);
+            display: flex;
+            position: center;
+            margin-bottom: 10px;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuyqmCyebpNQj9S0wvAx-TOL5iFIvE6SgK3Kci9wnYFP_ECKUpy4H07p6RqrfYz6tzj0E&usqp=CAU');
+            background-size: cover;
+            font-size: 2px;
+            transition: width 3s ;
+        }
+        #bom3:hover {
+            width: 300px;
+        }
+        #bom4{
+            height: 50px;
+            width: 50px;
+            border: 5px solid rgb(245, 241, 241);
+            display: flex;
+            position: center;
+            margin-bottom: 10px;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuyqmCyebpNQj9S0wvAx-TOL5iFIvE6SgK3Kci9wnYFP_ECKUpy4H07p6RqrfYz6tzj0E&usqp=CAU');
+            background-size: cover;
+            font-size: 2px;
+            transition: width 3s ;
+        }
+        #bom4:hover {
+            width: 300px;
+        }
+        #men {
+            height: 150px;
+            width: 150px;
+            border: 5px solid black;
+            display: inline-block;
+            margin-left: 300px;
+            border-radius: 5%;
+            background-image: url('men.jpeg');
+            background-size: cover;
+            margin-top: -40px;
+
+
+        }
+
+        #poster1{
+            height: 140px;
+            width: 140px;
+            border: 5px solid black;
+            display: inline-block;
+            margin-left: 90px;
+            border-radius: 5%;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-tD2uxGBa2sZlgS9OX3dhjm_Ci6s9_-G0VA&usqp=CAU');
+            background-repeat: no-repeat;
+            background-size: contain;
+
+        }
+
+        #poster2{
+            height: 140px;
+            width: 140px;
+            border: 5px solid black;
+            display: inline-block;
+            margin-left: 60px;
+            border-radius: 5%;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr7vOw8Ze8bhImmWpjgnmzhjbZDrt1zdVYmg&usqp=CAU');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #poster3{
+            height: 140px;
+            width: 140px;
+            border: 5px solid black;
+            display: inline-block;
+            margin-left: 60px;
+            border-radius: 5%;
+            background-image: url('https://www.icicibank.com/content/dam/icicibank/india/managed-assets/images/offer-zone/offer-zone-mdot.webp');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        #men1 {
+        
+            height: 100px;
+            width: 280px;
+            display: inline-block;
+            margin-left: 275px;
+            padding-top: -10px;
+            text-align: center;
+            font-size: 40px;
+            font-family:  'Brush Script MT', cursive;
+
+        }
+
+        #women {
+            height: 150px;
+            width: 150px;
+            border: 5px solid black;
+            display: inline-block;
+            margin-left: 110px;
+            border-radius: 5%;
+            background-image: url('women.jpeg');
+            background-size: cover;
+            margin-top: -40px;
+
+        }
+
+        #women1 {
+            
+            height: 100px;
+            width: 160px;
+            display: inline-block;
+            margin-left: 100px;
+            padding-top: -10px;
+            text-align: center;
+            font-size: 40px;
+            font-family:  'Brush Script MT', cursive;
+        }
+        
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        main {
+            height: 200px;
+            width: 100%;
+            border: 5px solid rgb(11, 10, 10);
+            background-color: black;
+        }
+
+        #m1 {
+            height: 300px;
+            width: 60px;
+            display: inline-block;
+            border: 5px solid rgb(6, 6, 6);
+            padding-bottom: 10px;
+        }
+
+        #m2 {
+            height: 300px;
+            width: 60px;
+            display: inline-block;
+            border: 5px solid rgb(6, 6, 6);
+            padding-bottom: 10px;
+            margin-left: 1350px;
+
+        }
+
+        #boy {
+            height: 300px;
+            width: 200px;
+            border: 5px solid red;
+            display: inline-block;
+        }
+
+        footer {
+
+            height: 100px;
+            width: 100%;
+            text-align: center;
+            background-color: rgb(15, 15, 16);
+            padding-left: 20px;
+            border: 5px solid rgb(19, 18, 18);
+
+        }
+
+        #foot {
+            font-size: 30px;
+            font-weight: 80px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: left;
+            padding-right: 30px;
+            height: 40px;
+            width: 100%;
+            color: rgb(14, 13, 13);
+            padding-top: 10px;
+
+
+        }
+    </style>
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+
+    <header>
+        <section id="a1">
+            <div id="u1">
+                <a href="index.html"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWdDaOzASZkTu0JWbvNndWhVQSjKcQ7ZXeFw&usqp=CAU"
+                        height="58https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWdDaOzASZkTu0JWbvNndWhVQSjKcQ7ZXeFw&usqp=CAUpx"
+                        width="60px"></a>
+            </div>
+            <div id="u2">
+                <a href="account.html"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy3ZSGUQJFMGuef5ZSd07GdhqcQ4poJlJWHA&usqp=CAU"
+                        height="58https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWdDaOzASZkTu0JWbvNndWhVQSjKcQ7ZXeFw&usqp=CAUpx"
+                        width="60px"></a>
+            </div>
+            <div id="u3">
+                <a href=""><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD8VKxvEf1DZxi_HuadAUJsoW0P7hTJYrJng&usqp=CAU"
+                        height="58https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWdDaOzASZkTu0JWbvNndWhVQSjKcQ7ZXeFw&usqp=CAUpx"
+                        width="60px"></a>
+            </div>
+            <div id="u4">
+                <a href=""><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSruYH6EQfePQ-Y4pDDWdEdBc-wvzOqisqmvQ&usqp=CAU"
+                        height="58https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWdDaOzASZkTu0JWbvNndWhVQSjKcQ7ZXeFw&usqp=CAUpx"
+                        width="60px"></a>
+            </div>
+            <div id="u5">
+                <a href=""><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS97yGChbEe3sKxdep03EeI6TZ-yDYfp9Ta3NFkYAKpFLdstreV9PD0G5fjo8UIPDLY3pc&usqp=CAU"
+                        height="58https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWdDaOzASZkTu0JWbvNndWhVQSjKcQ7ZXeFw&usqp=CAUpx"
+                        width="60px"></a>
+            </div>
+            <div id="u6">
+                <a href=""><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJRvlR5VlwLCeUIwwGaY94PGgPBzJ3vMhCqw&usqp=CAU"
+                        height="58https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWdDaOzASZkTu0JWbvNndWhVQSjKcQ7ZXeFw&usqp=CAUpx"
+                        width="60px"></a>
+            </div>
+
+            <a><input placeholder="Search Zamtech.in"
+                    style="margin-left:140px; height:30px; width:290px; border-radius:5%; text-align:left; font-weight:900; color:rgb(25, 25, 25); display:inline-block;"></a>
+
+
+
+
+
+
+        </section>
+        <br>
+        <div id="a2">
+            <div id="bom1"></div>
+            <div id="bom2"></div>
+            <div id="bom3"></div>
+            <div id="bom4"></div>
+        </div>
+        <div id="men">
+
+        </div>
+        <div id="women">
+
+        </div>
+        <div id="poster1">
+
+        </div>
+        <div id="poster2">
+
+        </div>
+        <div id="poster3">
+
+        </div>
+
+        <br>
+
+
+        <div id="men1">
+            <a href="men.html">
+              <i>  <b style="font-size:90px; ">M</b>EN</a>
+              </i>
+
+        </div>
+        <div id="women1">
+            <a href="women.html" style="color:black;">
+               <i>  <b  style="font-size:90px; ">W</b>OMEN</a>
+               </i>
+
+        </div>
+        
+        <div id="line">
+            <p> Last Chance To Grab Your Dream</p>
+
+        </div>
+
+
+
+
+
+    </header>
+
+
+    <main>
+        <section id="temp">
+            <p>
+                <b style="font-size:80px;">M</b>ATCH <b style="font-size:80px;">Y</b>OURS <b
+                    style="font-size:80px;">S</b> TYLE. <b style="font-size:80px;">F</b>IND <b
+                    style="font-size:80px;">Y</b>OUR <b style="font-size:80px;">V</b>IBE
+            </p>
+
+
+        </section>
+
+
+
+
+    </main>
+
+
+    <footer>
+        <nav id="foot">
+            <a href="man_collection.html" class="gap" style="color:yellow;padding-left:100px; "> Reviews</a>
+            <a href="feedback.html" class="gap" style="padding-left:150px; color:yellow;"> Feedback</a>
+            <a href="" class="gap" style="padding-left:180px; color:yellow;"> Coustmer care & Services</a>
+            <a href="zamtech.html" class="gap" style="padding-left:150px; color:yellow;">My Zamtech</a>
+        </nav>
+
+
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
